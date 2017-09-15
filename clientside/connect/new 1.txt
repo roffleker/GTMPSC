@@ -1,0 +1,9 @@
+<form class="azahlmenu">
+<input type="number" id="moneyaus" placeholder="Geldbetrag" />
+<button id="auszahlbtn">Auszahlen2</button>
+</form>
+<form class="uweismenu">
+<input type="number" id="moneyuber" placeholder="Geldbetrag" />
+<input type="number" id="empfuber" placeholder="Empfänger" />
+<button id="uberweisbtn">Überweisen2</button>
+</form>
