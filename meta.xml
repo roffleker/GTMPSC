@@ -1,0 +1,56 @@
+<meta>
+  <!-- Create with meta generator by SyBozz -->
+  <info name="RealifeGM" author="jojoa" version="V1.1" type="script" />
+  <!-- Assembly -->
+  <assembly ref="NLog.dll" />
+  <assembly ref="MySql.Data.dll" />
+  <assembly ref="System.Xml.dll" />
+  <assembly ref="System.Data.dll" />
+  <assembly ref="VehicleInfo.dll" />
+  <!-- Server Scripts -->
+  <script src="de.jojoa.data\Account.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.data\Bank_Account.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.data\data_methods.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.data\Property.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.data\Vehicle.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.events\race_event.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.loggers\logger_teamcmd.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.loggers\logger_usercmd.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.main\Main.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.methods\getMethods.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.methods\locationMethods.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.methods\stringMethods.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.mysql\MySQL_Bank.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.mysql\MySQL_PlayerData.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.mysql\MySQL_POIData.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.mysql\MySQL_PropertyData.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.mysql\MySQL_Ranks.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.mysql\MySQL_Vehicles.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\Playerlist.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\player_chat.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\player_cmds.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\player_connect.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\player_keys.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\player_login.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\player_methods.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\player_register.cs" type="server" lang="csharp" />
+  <script src="de.jojoa.player\player_vehicle.cs" type="server" lang="csharp" />
+  <!-- Client Scripts -->
+  <script src="de.jojoa.javascript\CEFManager.js" type="client" lang="javascript" />
+  <script src="de.jojoa.javascript\clientside.js" type="client" lang="javascript" />
+  <script src="de.jojoa.javascript\client_data.js" type="client" lang="javascript" />
+  <script src="de.jojoa.javascript\fly.js" type="client" lang="javascript" />
+  <script src="de.jojoa.javascript\keys.js" type="client" lang="javascript" />
+  <script src="de.jojoa.javascript\MenuManager.js" type="client" lang="javascript" />
+  <script src="de.jojoa.javascript\playerlist.js" type="client" lang="javascript" />
+  <script src="de.jojoa.javascript\Prop_manager.js" type="client" lang="javascript" />
+  <script src="de.jojoa.javascript\race_event.js" type="client" lang="javascript" />
+  <!-- Files -->
+  <file src="clientside\connect\bank.html" />
+  <file src="clientside\connect\connect.html" />
+  <file src="clientside\connect\forceRegister.html" />
+  <file src="clientside\connect\wrongLogin.html" />
+  <file src="clientside\connect\wrongRegister.html" />
+  <file src="clientside\connect\img\Placeholder.jpg" />
+  <file src="clientside\connect\js\jquery.js" />
+</meta>
